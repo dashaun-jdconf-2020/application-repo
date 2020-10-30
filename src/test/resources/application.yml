@@ -1,0 +1,7 @@
+application:
+  defaultMessage: you are looking at test configs!
+  dumpMessage: look at the logs!
+
+eureka:
+  client:
+    enabled: false
