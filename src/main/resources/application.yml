@@ -2,19 +2,8 @@ application:
   defaultMessage: you are looking at default configs!
   dumpMessage: the hits are viewable in the logs!
 
-eureka:
-  client:
-    enabled: false
-
 spring:
   cloud:
     loadbalancer:
       ribbon:
         enabled: false
-  redis:
-    host: dashaun-jdconf2020-basic.redis.cache.windows.net
-    port: 6380
-    ssl: true
-    password: mQU0V6CtQ3NLvDhv2miQPQFl+Wq0gG1rNJO7yqTmpRg=
-#    host: dashaun-jdconf2020-basic.redis.cache.windows.net
-#    port: 6376
